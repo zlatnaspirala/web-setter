@@ -1,0 +1,45 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background: black;
+  color: goldenrod;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  z-index: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90%;
+}
+
+.c {
+  margin: 1px auto;
+  padding: 1px;
+  border: solid rgb(203, 223, 58) 1px;
+  font-size: 20px;
+  text-align: center;
+}
+
+ccb {
+  border: solid rgb(156, 156, 156) 1px;
+}
+
+.c .ccb {
+  border: solid rgb(142, 44, 254) 1px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  background: rgb(173, 255, 8);
+}
+
+.specialRed {
+  color:red;
+}
